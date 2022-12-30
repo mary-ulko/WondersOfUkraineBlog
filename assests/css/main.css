@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: rgb(157, 225, 255);
+}
+
+h5, p, a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black
+}
+
+
+.header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.card-row {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.card-row:hover {
+    background-color: gainsboro;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sector {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.sector_text {
+    margin-top: 80px;
+    text-align: justify;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+
+.image {
+    padding: 20px;
+    right: 200px;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 600px;
+    height: 400px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+
+.arrow-back {
+    text-align: center;
+    width: 150px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    transition: all .5s ease;
+}
+
+.arrow-back:hover {
+    background: gainsboro;
+}
+
+.arrow-forward {
+    text-align: center;
+    width: 150px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    transition: all .5s ease;
+}
+
+.arrow-forward:hover {
+    background: gainsboro;
+}
+
+iframe {
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
